@@ -7,7 +7,7 @@ import com.vaadin.flow.theme.Theme;
 import com.vaadin.flow.component.page.AppShellConfigurator;
 
 @SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
-@Theme("my-theme")
+//@Theme("my-theme")
 public class ServerApplication implements AppShellConfigurator {
 
     public static void main(String[] args) {
