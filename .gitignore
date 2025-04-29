@@ -7,6 +7,13 @@ target/
 !**/src/test/**/target/
 *.log
 
+### VAADIN ###
+/**/src/main/frontend/generated/
+/**/src/main/frontend/index.html
+*.generated.*
+package-lock.json
+package.json
+
 ### STS ###
 .apt_generated
 .classpath
